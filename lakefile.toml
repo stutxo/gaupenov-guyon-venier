@@ -1,0 +1,10 @@
+name = "gaupenov-guyon-venier"
+version = "1.0.0"
+defaultTargets = ["GaupenovGuyonVenier", "ggv"]
+
+[[lean_lib]]
+name = "GaupenovGuyonVenier"
+
+[[lean_exe]]
+name = "ggv"
+root = "Main"
